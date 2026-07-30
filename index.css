@@ -97,7 +97,10 @@ li{
         text-align: center;
         gap: 2rem;
     }
-
+    nav{
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
 
 
