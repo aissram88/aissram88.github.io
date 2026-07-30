@@ -10,6 +10,7 @@ body{
 
 nav{
     text-align: right;
+    flex-wrap:wrap;
 }
 nav a{
     margin:2%;
