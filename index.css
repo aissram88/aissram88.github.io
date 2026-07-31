@@ -99,9 +99,12 @@ li{
     nav{
         flex-wrap: wrap;
         text-align: left;
+        -webkit-box-flex:flex;
+        display:flex;
     }
     nav a{
         margin:1% 1%;
+        width:25%;
 }
 }
 
