@@ -7,9 +7,17 @@ body{
 .maincontainer{
     margin:5% 15% 0 15%;
 }
-
+header a{
+    text-decoration: none;
+    color: black;
+}
+/* nav */
 nav{
     text-align: right;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 5%;
 }
 nav a{
     margin:2%;
@@ -31,6 +39,7 @@ nav a:hover{
     color: white;
     background-color: rgb(235, 176, 176);
 }
+/* Hero main */
 .hero{
     min-height: 90vh;
     display: flex;
@@ -75,82 +84,141 @@ nav a:hover{
     width: 100%;
     border-radius: 50%;
 }
-ul{
+.hero-content p{
+    margin-top: 4px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+/* Hero Key Strength */
+.hero-skills ul{
     padding: 0;
     margin: 0;
+    margin-left: 0;
     text-align: justify;
 }
-strong{
+.hero-skills strong{
     font-weight: bold;
     text-decoration: underline;
+    text-align: left;
 }
-li{
-    margin: 0.5rem;
+.hero-skills li{
     padding: 0;
     line-height: 1.25rem;
     font-weight: 100;
+    text-align: left;
 }
-@media (max-width:768px){
-    .hero-container{
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 2rem;
-    }
-    nav{
-        flex-wrap: wrap;
-        text-align: left;
-        -webkit-box-flex:flex;
-        display:flex;
-    }
-    nav a{
-        margin:1% 1%;
-        width:25%;
+.center{text-align: center;}
+
+/*Hero programming languages logo*/
+.logo{
+    width: 100%;
+    max-width: 50px;
+    margin: 1vw;
 }
+/*Hero credential badges*/
+.badge{
+    width: 100%;
+    max-width: 100px;
+    margin: 1vw;
+}
+/*Hero Projects*/
+.project-field{
+    border: none;
+    margin-top: 10px
 }
 
-.center{text-align: center;}
-#mypic{
-    width: 300px; height: auto; border-radius: 50%;
-}
-.center{text-align: center;}
 .project-box{
     flex-wrap: wrap;
     display: flex ;
-
 }
-.box h3{
+.card h3{
     padding: 0;
-    margin:0;
+    margin:0 0 4px 0;
+    text-decoration: underline;
 }
 
-.box{
+.card{
     width: 250px;
-    height: 150px;
+    height: auto;
     margin: 2% 2%;
     padding: 1rem;
     border: solid black;
     border-radius: 12px;
     flex-direction: column;
 }
-.box p{padding:0.5rem;
-font-weight: 150;
+.card p{
+    margin:0;
+    color: #5c5757;
 }
-.box a{
+.card ul{
+    margin: 0;
+    padding-top:0 ;
+    padding-left: 12px;
+    color: #5c5757;
+}
+.card a{
     text-decoration: none;
     color: black;
 }
-.icon{
-    width: 100%;
-    max-width: 50px;
-    margin: 1vw;
+/*Project button*/
+.project-button{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(235, 176, 176);
+    border: solid rgb(235, 176, 176);
+;
 }
-.logo{
-    width: 100%;
-    max-width: 100px;
-    margin: 1vw;
+.project-button a{
+    color: white;
+    background-color: rgb(235, 176, 176);
+    text-decoration: none
 }
-#no-border{border: none;}
+/*footer*/
+/*Social media links*/
 .socialmedia{
     text-align: center;
 }
+
+
+/* Media Query max-width 768px */
+@media (max-width:768px){
+.maincontainer{
+    margin:3% 5% 0 5%;
+}
+.hero-image{
+    max-width: 200px;
+    min-width: 100px;
+    width: 100%;
+    border-radius: 50%;
+}
+.hero-container{
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2rem;
+}
+nav{
+    flex-wrap: wrap;
+    align-items: left;
+    display: flex;
+    height: auto;
+    padding: 10px;
+    text-align: left;
+}
+nav a{
+    display:inline-block;
+    padding: 8px 16px;
+    border-radius:20px;
+}
+}
+
+
+
+
+
+
 p{margin: 0;}
