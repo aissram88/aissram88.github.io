@@ -1,0 +1,38 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.about-image{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+.about-text{
+    width: 100%;
+    color: #424242;
+}
+.about-sec-container h2{
+    padding-bottom:0;
+    margin-bottom: 0;
+}
+.about-sec-container p{
+    margin-top: 2px;
+    padding-top: 0;
+}
+
+
+
+
+@media (min-width:768px){
+.about-container{
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.about-text{
+    flex: 1;
+}
+}
