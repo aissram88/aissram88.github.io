@@ -1,0 +1,33 @@
+/*Conatct-section*/
+.contact-section h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/*outer contact-card*/
+.contact-card{
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    row-gap: 16px;
+    column-gap: 40px;
+    align-items: center;
+
+    border: 1px solid #b9b8b8;
+    padding:10px 0 10px 20px;
+    width: 100%;
+    
+}
+.label{
+    color: #2e2e2e;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.link{
+    color: #555555;
+    font-size: 1rem;
+    overflow: hidden;
+    text-decoration: eclipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,17 @@
+.cv-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+.cv-name{
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+}
+.cv-text{
+    text-align: center;
+}
+.cv-summary{
+    margin-bottom: 2rem;
+}

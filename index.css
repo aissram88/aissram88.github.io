@@ -48,7 +48,6 @@ nav a:hover{
     padding: 3rem 1.5rem;
 }
 .hero-container{
-    margin:20px; /*Add here for gaps*/
     max-width: 1100px;
     width: 100%;
     display:flex;
@@ -119,8 +118,7 @@ nav a:hover{
 /*Hero credential badges*/
 .badge{
     width: 100%;
-    max-width: 120px;
-    height:auto;/*add for badges size*/
+    max-width: 100px;
     margin: 1vw;
 }
 /*Hero Projects*/

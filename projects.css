@@ -1,0 +1,42 @@
+/*card-project*/
+
+.card-project{
+    margin-top:10px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+
+/*inside card-project*/
+.project-name{
+    font-size: 18px;
+}
+.project-sub{
+    margin-top: 3px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.project-text{
+    padding-left: 7px;
+    color: #4b4242;
+    margin-bottom: 10px;
+}
+.project-key{
+    margin-bottom: 0;
+    padding:0;
+}
+.project-lists {
+    margin: 0;
+    padding-left: 20px;
+    color: #4b4242;
+}
+.card-list{
+    margin-top: 0;
+    padding-top: 0;
+}
+/*a tag styling*/
+.center{
+    text-align: center;
+}
+.anchor-to-github img{
+    background-color: black;
+}
